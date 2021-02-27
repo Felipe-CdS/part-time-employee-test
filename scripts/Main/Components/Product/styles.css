@@ -45,4 +45,10 @@ and (max-device-width : 480px) {
 and (min-device-width : 735px) 
 and (max-device-width : 1024px) {
 /* Styles */
+
+.product-card {
+    width: 100%;
+    height: 30rem;
+}
+
 }

@@ -119,4 +119,26 @@ and (max-device-width : 480px) {
 and (min-device-width : 735px) 
 and (max-device-width : 1024px) {
 /* Styles */
+#middle {
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+#middle h1, #middle p{
+    width: 70%;
+    text-align: center;
+}
+
+#middle #midle-banner{
+    width: 100%;
+    height: 35rem;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+
 }
