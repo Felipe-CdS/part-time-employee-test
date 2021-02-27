@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body, #root {
+    min-height: 100vh;
+    background-color: #E5E5E5;
+
+    position: relative;
+}
+*, button, input{
+    border: 0;
+    outline: 0;
+    font-family: 'Artigo', sans-serif;
+}
+:root {
+    --black: #1B1F1C;
+    --green: #00EC5B;
+}

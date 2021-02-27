@@ -1,0 +1,122 @@
+#middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: auto;
+
+    padding: 4rem;
+}
+
+#middle h1, #middle p{
+    margin-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+#middle #midle-products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 2rem;
+}
+
+#middle #midle-products div:first-child {
+    margin-right: 5rem;
+}
+
+#middle #midle-banner{
+    width: 75%;
+    height: 40rem;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#middle #midle-banner div:first-child{
+    grid-row: 1/ span 2;
+}
+
+#middle #midle-banner #banner-1{
+    background-image: url("../../../../dist/Assets/photo-1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#middle #midle-banner #banner-3{
+    background-image: url("../../../../dist/Assets/photo-2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#middle #midle-banner #banner-3 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 31, 28, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+
+/* MEDIA QUERY: */
+/* Mobile 375  ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+#middle {
+    padding: 2rem;
+}
+
+#middle h1, #middle p{
+    width: 90%;
+    text-align: center;
+}
+
+#middle #midle-products {
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#middle #midle-products div:first-child {
+    margin-right: 0;
+    margin-bottom: 4rem;
+}
+
+#middle #midle-banner{
+    width: 100%;
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 35rem 17rem 17rem;
+}
+
+#middle #midle-banner div:first-child{
+    grid-row: 1;
+}
+
+}
+
+/* iPad 735  ----------- */
+@media only screen 
+and (min-device-width : 735px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}

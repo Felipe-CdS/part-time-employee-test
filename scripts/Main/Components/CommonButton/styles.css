@@ -1,0 +1,32 @@
+.link-button {
+    width: 12rem;
+    height: 3.5rem;
+    padding: 1rem 2.5rem;
+
+    border-radius: 3rem;
+    color: white;
+
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-button:hover{
+    scale: 1.08;
+    box-shadow: 0px 8px 15px -4px rgba(0, 0, 0, 1);
+    animation-name: opacity-animation;
+    animation-duration: 650ms;
+
+}
+
+@keyframes opacity-animation {
+    0% {
+        box-shadow: 0px 8px 15px -4px rgba(0, 0, 0, 0.0);
+        scale: 1;
+    }
+    100% {
+        box-shadow: 0px 8px 15px -4px rgba(0, 0, 0, 1);
+        scale: 1.08;
+    }
+  }
