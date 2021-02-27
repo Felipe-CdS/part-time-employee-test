@@ -9,10 +9,11 @@ html, body, #root {
 
     position: relative;
 }
+
 *, button, input{
     border: 0;
     outline: 0;
-    font-family: 'Artigo', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 :root {
     --black: #1B1F1C;
