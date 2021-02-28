@@ -16,7 +16,7 @@ function CommonButton(props){
 
     return(
         //possible colors: green / black
-        <a className="link-button" style={styles} href={`#/${props.href}`}>{props.text}</a>
+        <a className="link-button" id={props.id} style={styles} href={`#/${props.href}`}>{props.text}</a>
     );
 }
 export default CommonButton;

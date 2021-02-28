@@ -5,6 +5,7 @@ module.exports = {
 
   entry: {
     index: './scripts/index.js',
+    miscelaneous: './scripts/miscelaneous.js'
   },
  
   output: {

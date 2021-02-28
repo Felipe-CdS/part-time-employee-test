@@ -171,6 +171,16 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin-right: 10px;
+
+    position: relative;
+}
+
+#footer-contact-us-right form .name-container #phone-input-warning{
+    position: absolute;
+    right: 0.8rem;
+    top: 0.5rem;
+    color: red;
+    opacity: 0.8;
 }
 
 #footer-contact-us-right form .name-container div input, select{
@@ -212,7 +222,7 @@
     border-right: 1px solid var(--green);
 }
 
-#footer-contact-us-right a {
+#footer-contact-us-right #enter-input {
     position: absolute;
     bottom: -4rem;
     right: 8rem;
@@ -338,8 +348,12 @@ and (max-device-width : 480px) {
 
 #footer-contact-us-right a {
     position: relative;
-    bottom: -1rem;
-    right: -4rem;
+    bottom: -2rem;
+    right: 0;
+    width: 100%;
+    height: 3rem;
+    height: 3rem;
+
 }
 
 #footer-contact-us-right #conecta-span{

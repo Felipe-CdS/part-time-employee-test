@@ -12,6 +12,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 10rem 1rem 5rem;
+
+    opacity: 0;
+    animation: fade-in-animation 3000ms forwards;
 }
 
 #landing header a{
@@ -39,6 +42,9 @@
     justify-content: space-between;
 
     position: relative;
+
+    opacity: 0;
+    animation: fade-in-animation 3500ms 500ms forwards;
 }
 
 #landing section h1{
@@ -61,6 +67,14 @@
     }
 }
 
+@keyframes fade-in-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 /* MEDIA QUERY: */
 /* Mobile 375  ----------- */

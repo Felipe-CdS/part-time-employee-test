@@ -50,7 +50,10 @@ function Footer(){
                                     </div>
                                     <div>
                                         <label htmlFor="phone">TELEFONE</label>
-                                        <input type="text" id="phone" name="phone" placeholder="(21)00000-0000"/>
+                                        <div>
+                                            <input type="text" id="phone" name="phone" placeholder="(21)00000-0000"/>
+                                            <i id="phone-input-warning" className="gg-danger" style={{display: "none"}}></i>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -74,7 +77,7 @@ function Footer(){
                                     </div>
                                 </div>
                         </form>
-                        <CommonButton color="green" text="Aqui um CTA" href="404"/>
+                        <CommonButton id="enter-input" color="green" text="Aqui um CTA" href="404"/>
                         <span id="rights-span-mobile">Todos os direitos reservados © 2020 Conecta</span>
                         <div id="conecta-span">
                             <span>PRODUZIDO POR</span>
